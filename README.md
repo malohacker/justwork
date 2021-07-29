@@ -1,5 +1,5 @@
 GET http://localhost:8000/api/pages/
-
+```json
 {
     "count": 2,
     "next": null,
@@ -15,10 +15,10 @@ GET http://localhost:8000/api/pages/
         }
     ]
 }
-
+```
 GET http://localhost:8000/api/pages/1/
 
-
+```json
 {
     "id": 1,
     "contents": [
@@ -59,3 +59,4 @@ GET http://localhost:8000/api/pages/1/
     ],
     "title": "first"
 }
+```
