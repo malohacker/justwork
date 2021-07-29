@@ -1,0 +1,6 @@
+Django>=2
+psycopg2-binary
+djangorestframework
+celery
+redis
+django-admin-json-editor
